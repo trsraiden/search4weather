@@ -47,7 +47,7 @@ router.route('/getLocationWeather').post((req,res)=>{
         .catch(err => console.log(err));
 });
 
-//weather
+//OpenWeather API testing
 router.route('/getWeather').get((req,res)=>{
 
     const weatherAPICall = async () => {
@@ -64,7 +64,7 @@ router.route('/getWeather').get((req,res)=>{
         .catch(err => console.log(err));
 });
 
-//location
+//positionstack API testing
 router.route('/getLocation').get((req,res) =>{
 
     const locationAPICall = async () => {
